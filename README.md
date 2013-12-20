@@ -27,8 +27,6 @@ development of cross-browser "userscript" style extensions for the following bro
 - Opera
 - Safari
 
-You can see a "kitchen sink" demonstration at [http://BabelExt.com/demo/](http://BabelExt.com/demo/)
-
 ### Who is BabelExt for? ###
 
 It's likely that BabelExt will appeal most to either new extension developers, or
@@ -108,8 +106,6 @@ recognized by Safari. Don't remove that from the name!
 
 - Click "load unpacked extension" and choose the Chrome directory
 
-- You're good to go! If you just want to try out the BabelExt kitchen sink demo, navigate to [http://babelext.com/demo/](http://babelext.com/demo/)
-
 - Further Chrome development information can be found at [http://code.google.com/chrome/extensions/index.html](http://code.google.com/chrome/extensions/index.html)
 
 ### Firefox ###
@@ -120,20 +116,11 @@ recognized by Safari. Don't remove that from the name!
 
 - Navigate to the Firefox directory under BabelExt, and type: cfx run
 
-- You're good to go! If you just want to try out the BabelExt kitchen sink demo, navigate to [http://babelext.com/demo/](http://babelext.com/demo/)
-
 - Further Firefox development information can be found at [https://addons.mozilla.org/en-US/developers/docs/sdk/latest/](https://addons.mozilla.org/en-US/developers/docs/sdk/latest/)
 
 ### Opera ###
 
-- Click Tools -> Extensions -> Manage Extensions
-
-- Find the config.xml file in the Opera directory of BabelExt, and drag it to the Extensions window
-
-- You're good to go! If you just want to try out the BabelExt kitchen sink demo, navigate to [http://babelext.com/demo/](http://babelext.com/demo/)
-
-- Further Opera development information can be found at [http://dev.opera.com/addons/extensions/](http://dev.opera.com/addons/extensions/)
-
+- Opera is now essentially the same process as Chrome. More documentation to come.
 
 ### Safari ###
 
@@ -146,7 +133,5 @@ recognized by Safari. Don't remove that from the name!
 - Click the + button at the bottom left, and choose "Add Extension"
 
 - Choose the Safari.safariextension folder from BabelExt
-
-- You're good to go! If you just want to try out the BabelExt kitchen sink demo, navigate to [http://babelext.com/demo/](http://babelext.com/demo/)
 
 - Further Safari development information can be found at [https://developer.apple.com/library/safari/#documentation/Tools/Conceptual/SafariExtensionGuide/Introduction/Introduction.html](https://developer.apple.com/library/safari/#documentation/Tools/Conceptual/SafariExtensionGuide/Introduction/Introduction.html)
