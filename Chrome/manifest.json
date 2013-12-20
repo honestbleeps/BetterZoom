@@ -1,0 +1,39 @@
+{
+	"name": "BetterZoom",
+	"version": "0.9",
+	"manifest_version": 2,
+	"description": "BetterZoom - an improvement on HoverZoom with the bonus of no shady marketing tracking",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"css": [
+				"betterzoom.css"
+			],
+			"js": [
+				"zepto.min.js",
+				"rsvp.js",
+				"BabelExt.js",
+				"extension.js"
+			] // add others here if you like, i.e. jquery...
+		}
+	],
+	"icons": {
+		// "48": "icon48.png",
+		// "128": "icon128.png" 
+	},
+	"permissions": [
+		"http://*.flickr.com/photos/*",
+		"http://img.photobucket.com/*",
+		"http://imgclean.com/*",
+		"http://backend.deviantart.com/oembed?url=*",
+		"http://api.tumblr.com/v2/blog/*/posts?api_key=*&id=*",
+		"https://mediacru.sh/*",
+		"http://noembed.com/embed?url=*"
+	]
+}

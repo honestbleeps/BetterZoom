@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Steve Sobel</string>
+	<key>Builder Version</key>
+	<string>8537.71</string>
+	<key>CFBundleDisplayName</key>
+	<string>BetterZoom</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.honestbleeps.BetterZoom</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.95</string>
+	<key>CFBundleVersion</key>
+	<string>0.95</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>10485760</real>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>notification.html</string>
+				<key>Identifier</key>
+				<string>notification</string>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string></string>
+				<key>Identifier</key>
+				<string>notificationButton</string>
+				<key>Image</key>
+				<string>notification.png</string>
+				<key>Label</key>
+				<string>Notifications</string>
+				<key>Palette Label</key>
+				<string>Notifications</string>
+				<key>Popover</key>
+				<string>notification</string>
+				<key>Tool Tip</key>
+				<string>Notifications from this BabelExt Extension</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>extension.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>BabelExt.js</string>
+				<string>zepto.min.js</string>
+				<string>rsvp.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>betterzoom.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>BetterZoom - an improvement on HoverZoom with the bonus of no shady marketing tracking</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
