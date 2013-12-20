@@ -6,6 +6,7 @@
 }
 
 .BetterZoom-callout {
+	display: none;
 	position: absolute;
 	width: 0; 
 	height: 0; 
@@ -15,6 +16,7 @@
 }
 
 .BetterZoom-container {
+  display: none;
   border-collapse: collapse;
   position: absolute;
   margin: 0;
