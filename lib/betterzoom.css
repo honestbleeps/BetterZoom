@@ -13,11 +13,11 @@
 	z-index: 10001;
 	border-top: 7px solid transparent;
 	border-bottom: 7px solid transparent;
-	border-right: 20px solid #ccc;
+	border-right: 20px solid #666;
 	border-left: none;
 }
 .BetterZoom-callout.left {
-	border-left: 20px solid #ccc;
+	border-left: 20px solid #666;
 	border-right: none;
 }
 
@@ -27,7 +27,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  border: 2px solid #ccc;
+  border: 2px solid #666;
   box-shadow: 0 0 6px 0 #666;
   z-index: 10000;
 }
