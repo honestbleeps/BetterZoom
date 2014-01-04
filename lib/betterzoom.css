@@ -9,10 +9,16 @@
 	display: none;
 	position: absolute;
 	width: 0; 
-	height: 0; 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	border-right: 20px solid #cce;
+	height: 0;
+	z-index: 10001;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 20px solid #ccc;
+	border-left: none;
+}
+.BetterZoom-callout.left {
+	border-left: 20px solid #ccc;
+	border-right: none;
 }
 
 .BetterZoom-container {
@@ -21,20 +27,27 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  border: 3px solid #ccc;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 6px 0 #666;
   z-index: 10000;
 }
 
 .BetterZoom-header {
-	background-color: #cce;
-	height: 30px;
+	background-color: #333;
+	color: #ddd;
+	height: 20px;
+	font-size: 12px;
 	width: 100%;
 	display: flex;
 	justify-content: left;
 	align-items: center;
 }
+.BetterZoom-header span {
+	margin-left: 6px;
+}
 
-.BetterZoom-container img {
-  border: 0;
-  box-shadow: 0 0 6px 0 #666;
+.BetterZoom-media, .BetterZoom-container img {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
