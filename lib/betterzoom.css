@@ -26,6 +26,7 @@
 	font-size: 11px;
 	font-family: Arial;
 	color: #ddd;
+	background-color: #000;
 	border-collapse: collapse;
 	position: absolute;
 	margin: 0;
@@ -59,9 +60,24 @@
 	font-size: 14px;
 	color: #999;
 }
+#BetterZoom-media {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 
-#BetterZoom-media, #BetterZoom-container img {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+
+	display: box;
+	box-orient: horizontal;
+	box-pack: center;
+	box-align: center;
+}
+
+#BetterZoom-media img, #BetterZoom-media video {
+	width: auto;
+	height: auto;
 }
