@@ -1,34 +1,36 @@
-#!/bin/sh
-files=("BabelExt.js" "extension.js" "zepto.min.js" "rsvp.js" "betterzoom.css")
-paths=("Chrome" "Firefox/data" "Opera" "Safari.safariextension")
+#!/bin/bash
+
+libfiles=("lib/"*)
+modulefiles=("lib/modules/"*)
+files=("${libfiles[@]}" "${modulefiles[@]}")
+
+paths=("Chrome" "XPI/data" "Opera" "Safari.safariextension")
 
 for i in "${files[@]}"
 do
         for j in "${paths[@]}"
-        do
-                if [ "$j" == "Opera" ];
-                then
-                        if [[ "$i" == *.user.js || "$i" == *.css ]];
+                do
+                        if [[ -f $i ]]
                         then
-                                dest="./$j/includes/"
-                        else
-                                dest="./$j/modules/"
+                                file=$(basename $i)
+                                dir=$(dirname $i)
+                                if [ "$dir" == "lib/modules" ]
+                                then
+                                        dest="./$j/modules/"
+                                else
+                                        dest="./$j/"
+                                fi
+                                echo "Re-linking:" $dest$file
+                                if [ -f $dest$file ];
+                                then
+                                        rm $dest$file
+                                fi
+
+                                if [ "clean" != "$1" ];
+                                then
+                                        mkdir -p $dest
+                                        ln ./$i $dest
+                                fi
                         fi
-                else
-                        dest="./$j/"
-                fi
-                echo "Re-linking:" $dest$i
-                if [ -f $dest$i ];
-                then
-                        rm $dest$i
-                fi
-
-                if [ "clean" != "$1" ];
-                then
-                        mkdir -p $dest
-                        ln ./lib/$i $dest
-                fi
-        done
+                done
 done
-
-
