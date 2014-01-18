@@ -19,7 +19,9 @@
 				"zepto.min.js",
 				"rsvp.js",
 				"BabelExt.js",
-				"extension.js"
+				"extension.js",
+				"modules/imgur.js",
+				"modules/flickr.js"
 			] // add others here if you like, i.e. jquery...
 		}
 	],
