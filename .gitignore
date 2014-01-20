@@ -13,6 +13,7 @@
 /Safari.safariextension/modules/*.js
 /Safari.safariextension/*.css
 /Safari.safariextension/*.html
-/XPI/data/
-!/XPI/lib/main.js
+/Firefox/data/
+/Firefox/modules/
+!/Firefox/lib/main.js
 !/lib/*
