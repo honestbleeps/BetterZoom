@@ -100,7 +100,7 @@ recognized by Safari. Don't remove that from the name!
 
 ### Chrome ###
 
-- Click the wrench icon and choose Tools -> Extensions
+- Click the Menu icon and choose Tools -> Extensions
 
 - Check the "Developer Mode" checkbox
 
