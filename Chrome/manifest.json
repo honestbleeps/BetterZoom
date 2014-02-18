@@ -2,7 +2,7 @@
 	"name": "BetterZoom",
 	"version": "0.9",
 	"manifest_version": 2,
-	"description": "BetterZoom - an improvement on HoverZoom with the bonus of no shady marketing tracking",
+	"description": "BetterZoom, enlarge thumbnails on mouse over - an improvement on HoverZoom with the bonus of no shady marketing tracking",
 	"background": {
 		"scripts": ["background.js"]
 	},
