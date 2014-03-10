@@ -30,6 +30,7 @@
 		// "128": "icon128.png" 
 	},
 	"permissions": [
+		"history",
 		"http://*.flickr.com/photos/*",
 		"http://img.photobucket.com/*",
 		"http://imgclean.com/*",
