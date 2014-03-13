@@ -24,3 +24,9 @@ mklink Chrome\betterzoom.css ..\lib\betterzoom.css
 mklink Opera\includes\betterzoom.css ..\..\lib\betterzoom.css
 mklink Firefox\data\betterzoom.css ..\..\lib\betterzoom.css
 mklink /H Safari.safariextension\betterzoom.css lib\betterzoom.css
+
+:: ADD the modules
+mklink /d Chrome\modules\ ..\lib\modules\
+mklink /d Opera\modules\ ..\lib\modules\
+mklink /d Firefox\modules\ ..\lib\modules\
+mklink /d Safari.safariextension\modules\ ..\lib\modules\
