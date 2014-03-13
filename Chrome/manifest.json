@@ -21,6 +21,7 @@
 				"BabelExt.js",
 				"extension.js",
 				"modules/imgur.js",
+				"modules/wikipedia.js",
 				"modules/flickr.js"
 			] // add others here if you like, i.e. jquery...
 		}
