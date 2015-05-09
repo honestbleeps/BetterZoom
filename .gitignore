@@ -12,3 +12,5 @@
 /Firefox/modules/*.js
 !/Firefox/lib/main.js
 !/lib/*
+Chrome.crx
+Chrome.pem
